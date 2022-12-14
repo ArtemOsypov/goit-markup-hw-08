@@ -1,0 +1,31 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 1.72; */
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include desktop {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
+}
+
+.section.about {
+    padding-top: 0;
+}
