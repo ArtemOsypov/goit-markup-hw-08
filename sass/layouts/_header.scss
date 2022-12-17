@@ -116,7 +116,6 @@
 }
 
 .contact__icon-mail {
-
     display: inline-block;
     margin-right: 10px;
     width: 16px;
@@ -145,14 +144,6 @@
    position: absolute; 
    top: 10px;
    right: 10px;
-   }
-
-   .btn-open__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-
     @include tablet {
         display: none;
     }
@@ -160,6 +151,13 @@
     @include desktop {
         display: none;
     }
+   }
+
+   .btn-open__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
    }
 
    .mobile-menu {
@@ -254,6 +252,7 @@
     letter-spacing: 0.02em;
     display: block;
     color: var(--accent-color);
+    margin-right: auto;
 }
 
 .mobile-menu__mail {
@@ -273,6 +272,7 @@ justify-content: flex-start;
 align-items: center;
 margin-left: 40px;
 margin-top: 64px;
+margin-right: auto;
 &>li:not(:last-child) {
     padding-right: 10px;
     border-right-width: 1px;
@@ -290,9 +290,9 @@ margin-top: 64px;
     letter-spacing: 0.02em;
     color: var(--accent-color);
     }
-        .mobile-menu__soc-link:not(:last-child){
-            margin-right: 20px;
-        }
+    .mobile-menu__soc-link:not(:last-child){
+    margin-right: 20px;
+    }
 
 // .mobile-menu__soc-link:not(:last-child)::after {
 //     position: absolute;
