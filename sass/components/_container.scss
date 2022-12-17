@@ -1,4 +1,5 @@
 .container {
+    min-width: 320px;
     padding-left: 15px;
     padding-right: 15px;
     /* outline: 2px solid red; */
@@ -12,6 +13,7 @@
         }
     @include desktop {
         max-width: 1200px;
-        margin: 0 auto;
+        width: 100%;
+        // margin: 0 auto;
         }
 }
