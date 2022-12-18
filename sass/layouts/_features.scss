@@ -1,13 +1,16 @@
 .features {
-    // display: flex;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 
     @include tablet {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     }
     @include desktop {
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     }
 
@@ -47,20 +50,19 @@
 .features__item {
     display: block;
     margin-bottom: 10px;
-    text-align: center;
+    // text-align: center;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
     line-height: 1.15;
     letter-spacing: 0.03em;
-    text-align: center;
-
+    
     color: var(--color-title);
 }
 
 .features__text {
     // max-width: 270px;
     line-height: 1.72;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     
 }

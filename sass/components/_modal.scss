@@ -159,6 +159,10 @@
   font-size: 12px;
   line-height: 1.71;
   color: var(--text-color);
+
+  // @include mobile {
+  //   font-size: 12px;
+  // }
  
 }
 
@@ -185,6 +189,10 @@
     border-color: var(--accent-color);
   }
 }
+
+// .policy {
+//   max-width: 100%;
+// }
 
 .modal__agreement {
   padding-left: 5px;

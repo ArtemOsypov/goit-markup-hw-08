@@ -7,20 +7,15 @@
 
     @include mobile {
         width: 100%;
-        max-width: 480px;
-        
+                
     }
     @include tablet {
         width: 100%;
-        max-width: 768px;
         display: flex;
     }
         @include desktop {
             display: flex;
-            // width: 1200px;
-            max-width: 1200px;
             display: flex;
-            // margin: 0 auto;
             padding-top: 60px;
             padding-bottom: 60px;
             }
