@@ -157,12 +157,13 @@
   justify-content: center;
 
   font-size: 12px;
-  line-height: 1.71;
+  line-height: 1.17;
   color: var(--text-color);
 
-  // @include mobile {
-  //   font-size: 12px;
-  // }
+  @include desktop {
+    font-size: 14px;
+    line-height: 1.71;
+  }
  
 }
 

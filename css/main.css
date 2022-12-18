@@ -283,8 +283,14 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  line-height: 1.71;
+  line-height: 1.17;
   color: var(--text-color);
+}
+@media screen and (min-width: 1200px) {
+  .modal__checkbox-label {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal__checkbox-label > span {
@@ -833,12 +839,18 @@ body {
 .features__item {
   display: block;
   margin-bottom: 10px;
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.15;
   letter-spacing: 0.03em;
   color: var(--color-title);
+}
+@media screen and (min-width: 768px) {
+  .features__item {
+    text-align: left;
+  }
 }
 
 .features__text {
